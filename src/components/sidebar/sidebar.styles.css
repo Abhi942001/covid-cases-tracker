@@ -1,0 +1,31 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	height: 100%;
+	background-color: darkcyan;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.sidebar label {
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+#date-data {
+	margin: 10px;
+}
+.covid-data {
+	box-sizing: border-box;
+	margin-top: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: auto;
+	width: 100%;
+	padding: 10px;
+}
+.covid-data p {
+	color: white;
+}

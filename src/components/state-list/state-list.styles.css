@@ -1,0 +1,29 @@
+.container {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	margin: 5px 0;
+	background: rgb(231, 231, 231);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+.container:hover {
+	background: white;
+}
+
+.state-name {
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.active-cases,
+.deaths {
+	font-size: small;
+}

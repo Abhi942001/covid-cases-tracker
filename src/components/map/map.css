@@ -1,0 +1,15 @@
+svg {
+	box-sizing: border-box;
+
+	height: 100vh;
+}
+
+path {
+	fill: darkcyan;
+	stroke: white;
+	stroke-width: 1px;
+	transition: 0.3s;
+}
+path:hover {
+	fill: green;
+}
